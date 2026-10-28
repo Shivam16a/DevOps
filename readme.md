@@ -176,6 +176,26 @@ git add b.txt
 git commit -m "b.txt added" b.txt
 git push origin child1
 ```
+---
+## 12. Git Merge Conflicts
+
+Handling and resolving updates and merges across master and feature branches.
+
+### Key Commands:
+
+```bash
+git switch master
+cat a.txt
+git switch child1
+git merge master
+git switch master
+git merge child1
+cat a.txt
+git branch
+```
+
+![Git Merge Conflict 1](git_merge_conflict_1.png)
+![Git Merge Conflict 2](git_merge_conflict_2.png)
 
 ---
 
